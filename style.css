@@ -1,9 +1,13 @@
+body {
+	margin: 0;
+}
+
 .bio-box {
-	border: 1px solid black;
+	border: 1px inset black;
 	box-sizing: border-box;
 	float: left;
 	font-size: 1rem;
-	padding: 2%;
+	padding: 0 2% 2%;
 	width: 23%;
 	margin: 40px 1% 0;
 }
@@ -14,21 +18,20 @@ p {
 
 .bio-box img{
 	width: 100%;
-	text-align: center;
-	color: white;
 }
 
 .bio-box h3{
-	color: #fff;
+	color: #000;
 	font-size: 1.5em;
 	margin: -40px 0 1em;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 .bio-wrapper{
 	background-color: #c0e0c3;
 	font-size: 24px;
-	margin: ;
+	margin: auto;
 	max-width: 960px;
 	margin: auto;
 }
@@ -42,12 +45,39 @@ p {
 	height: 0;
 }
 
-
 .social-list > li{
 	display: inline-block ;
+	background: #01d301;
+	width: 3.5em;
+	height: 3.5em;
+	border-radius: 100px;
+	line-height: 1;
+	box-sizing: border-box;
+	font-size: 1em;
+	padding: 1.25em;
 }
 
 .social-list{
 	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.social-list a {
+	text-decoration: none;
+}
+
+.with-max-and-min-width{
+	border: 1px solid black;
+	display: inline-block; /* resize box size according to content */
+	padding: 1em;
+	max-width: 100px;
+	box-sizing: border-box;
+}
+
+.full-hero {
+	height: 40vh;
+	background-color: #b4d7fe;
+	text-align: ;
 
 }
